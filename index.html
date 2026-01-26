@@ -1,103 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Home - My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <a href="#" class="logo">Portfolio</a>
+            <a href="index.html" class="logo">Portfolio</a>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#languages">Languages</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero" class="hero">
+        <section class="hero">
             <h1>Hello, I'm [Your Name]</h1>
             <p>A passionate developer creating clean and modern web experiences.</p>
+            <div class="social-links">
+                <a href="#" class="social-btn">LinkedIn</a>
+                <a href="#" class="social-btn">GitHub</a>
+                <a href="#" class="social-btn">Email</a>
+            </div>
         </section>
 
         <section id="about">
             <h2>About Me</h2>
-            <p>I am a developer with a passion for building beautiful and functional websites. I enjoy solving complex problems and learning new technologies. In my free time, I like to contribute to open source and explore the latest trends in web development.</p>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Project Name 1</h3>
-                    <p class="card-subtitle">HTML, CSS, JavaScript</p>
-                    <p>A brief description of the project goes here. Explain what it does and the problem it solves.</p>
-                </div>
-                <div class="card">
-                    <h3>Project Name 2</h3>
-                    <p class="card-subtitle">React, Node.js</p>
-                    <p>A brief description of the project goes here. Explain what it does and the problem it solves.</p>
-                </div>
-                <div class="card">
-                    <h3>Project Name 3</h3>
-                    <p class="card-subtitle">Python, Django</p>
-                    <p>A brief description of the project goes here. Explain what it does and the problem it solves.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <div class="timeline-item">
-                <span class="date">2019 - 2023</span>
-                <h3>Bachelor of Science in Computer Science</h3>
-                <p>University Name, Location</p>
-            </div>
-            <div class="timeline-item">
-                <span class="date">2017 - 2019</span>
-                <h3>High School Diploma</h3>
-                <p>School Name, Location</p>
-            </div>
-        </section>
-
-        <section id="languages">
-            <h2>Languages</h2>
-            <div class="tags">
-                <span class="tag">English</span>
-                <span class="tag">Spanish</span>
-                <span class="tag">JavaScript</span>
-                <span class="tag">Python</span>
-                <span class="tag">HTML5</span>
-                <span class="tag">CSS3</span>
-                <span class="tag">Java</span>
-            </div>
-        </section>
-
-        <section id="work">
-            <h2>Work Experience</h2>
-            <div class="timeline-item">
-                <span class="date">2023 - Present</span>
-                <h3>Junior Web Developer</h3>
-                <p>Company Name, Location</p>
-                <ul>
-                    <li>Developed and maintained client websites using HTML, CSS, and JavaScript.</li>
-                    <li>Collaborated with the design team to implement responsive layouts.</li>
-                </ul>
-            </div>
-            <div class="timeline-item">
-                <span class="date">2022 - 2023</span>
-                <h3>Intern Developer</h3>
-                <p>Tech Startup, Location</p>
-                <ul>
-                    <li>Assisted in the development of a new web application feature.</li>
-                    <li>Fixed bugs and optimized code for better performance.</li>
-                </ul>
+            <div class="card">
+                <p>I am a developer with a passion for building beautiful and functional websites. I enjoy solving
+                    complex problems and learning new technologies. In my free time, I like to contribute to open source
+                    and explore the latest trends in web development.</p>
             </div>
         </section>
     </main>
@@ -106,4 +45,5 @@
         <p>&copy; 2024 My Portfolio. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
