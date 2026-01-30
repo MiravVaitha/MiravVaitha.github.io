@@ -2,7 +2,8 @@
 
 A modern, interactive portfolio website showcasing my projects, work experience, education, and technical skills.
 
-- 🌐 Live site: *(coming soon)*
+- 🌐 Live site: https://miravvaitha.com
+
 - 📍 Based in Dublin, Ireland
 
 ---
